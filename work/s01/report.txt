@@ -17,4 +17,5 @@ worked with Visual Studio Code or anything like that before.
 What is your TIL for this course section?
 My TIL for this course section is mainly some new commands in Git Bash. I learned about the Github Pages aswell
 as some new commands in Git Bash such as tags. I also learned how to manage this program I am writing this in,
-Visual Studio Code. 
+Visual Studio Code. Other than that, I also learned about how to use links in the index.html to get to other
+html files. 
