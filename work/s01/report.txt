@@ -10,7 +10,7 @@ up a server. But i have never tried making a website or worked with websites bef
 a fun challenge working with some new languages.
 
 Briefly explain your experience and knowledge of web application development.
-As written above, I had some experience of web application development in a previous course, but other than
+As written above, I had some experience of web application development in a previous course. But other than
 that, this is pretty new for me. I know some stuff about it like Websockets and Restful APIs, but I have never
 worked with Visual Studio Code or anything like that before. 
 
