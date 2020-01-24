@@ -5,20 +5,27 @@ html {
     overflow-y: scroll;
 }
 
-body {
-    margin: 8px auto;
-    background: burlywood;
-    width: 700px;
-}
 
-article {
-    background-color: cadetblue;
-}
 
 .about {
-    background-color: coral;
+    background-color: burlywood;
     margin: 8px auto;
-    width: auto;
+    width: 700px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.me {
+    background-color: darkgoldenrod;
+    margin: 8px auto;
+    width: 700px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.report {
+    background-color: darkgray;
+    margin: 8px auto;
+    width: 700px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
