@@ -5,10 +5,12 @@ html {
     overflow-y: scroll;
 }
 
-
+nav {
+    font-style: italic;
+}
 
 .about {
-    background-color: burlywood;
+    background-color: royalblue;
     margin: 8px auto;
     width: 700px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -27,5 +29,18 @@ html {
     width: 700px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
 
+a:hover {
+    color: floralwhite;
+}
+
+a:active {
+    color: darkolivegreen;
+}
 
