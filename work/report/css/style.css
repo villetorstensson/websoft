@@ -11,5 +11,14 @@ body {
     width: 700px;
 }
 
+article {
+    background-color: cadetblue;
+}
+
+.about {
+    background-color: coral;
+    margin: 8px auto;
+    width: auto;
+}
 
 
