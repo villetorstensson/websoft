@@ -23,6 +23,12 @@ html {
     box-shadow: 5px 5px;
 }
 
+.navschool {
+    font-style: italic;
+    background-color: silver;
+    box-shadow: 5px 5px;
+}
+
 .about {
     background-image: linear-gradient(pink,blue);
     margin: 8px auto;
@@ -43,6 +49,14 @@ html {
     width: 700px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.schools {
+    background-image: linear-gradient(to right, silver,darkslategray);
+    margin: 8px auto;
+    width: 700px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 a:link {
     color: black;
 }
