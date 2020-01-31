@@ -16,19 +16,40 @@
         <a href="me.html">Me</a> |
         <a href="report.html">Report</a> | 
         <a href="about.html">About</a>   |
-        <a href="schools.html">Schools</a>
+        <a href="schools.html">Schools</a> |
     </nav>
 </header>
-<h1>My Mega Sandbox</h1>
+
+<article>
+
+        <h1>Schools</h1>
+        
+        <div id="content">
+            <p>Lets fetch some Schools!</p>
+        </div>
+
+</article>
+
+
+<form name="form2">
+    <select name="jumpmenu" onChange="jumpto(document.form2.jumpmenu.options[document.form2.jumpmenu.options.selectedIndex].value)">
+    <option>Choose municipality...</option>
+    <option value='https://cors-anywhere.herokuapp.com/https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1083'>Sölvesborg</option>
+    <option value='https://cors-anywhere.herokuapp.com/https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1290',>Kristianstad</option>
+    </select>
+    </form>
+
+
+    <div id="container"></div>
+<script type="text/javascript" src="js/school.js">jumpto(document.form2.jumpmenu.options[document.form2.jumpmenu.options.selectedIndex].value);</script> 
+<div id="duck" class="duck"></div>
+<script type="text/javascript" src="js/duck.js"></script> 
 
 <footer>
     <hr>
     <p><img src="img/hkrlogo.jpg" width="250" alt="hkr logo"></p>
 </footer>
 
-    <div id="content">
-        <p> <code></code>.</p>
-    </div>
-    <script src="js/school.js"></script>   
 </body>
 </html>
+

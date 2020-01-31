@@ -1,13 +1,15 @@
 /*
  * Comments are written as C++ style. 
  */
-html {
+ html {
     overflow-y: scroll;
 }
 
+/* Design for all the different nav bars*/
+
 .navreport {
     font-style: italic;
-    background-color: silver;
+    background-color: limegreen;
     box-shadow: 5px 5px;
 }
 
@@ -25,10 +27,11 @@ html {
 
 .navschool {
     font-style: italic;
-    background-color: silver;
+    background-color: lightskyblue;
     box-shadow: 5px 5px;
 }
 
+/* Design for all the different pages*/
 .about {
     background-image: linear-gradient(pink,blue);
     margin: 8px auto;
@@ -44,18 +47,19 @@ html {
 }
 
 .report {
-    background-image: linear-gradient(to right, silver,darkslategray);
+    background-image: linear-gradient(to right, green,lime);
     margin: 8px auto;
     width: 700px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .schools {
-    background-image: linear-gradient(to right, silver,darkslategray);
+    background-image: linear-gradient(to right, aqua ,blue );
     margin: 8px auto;
     width: 700px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/* Design for all the links*/
 
 a:link {
     color: black;
@@ -72,9 +76,12 @@ a:active {
     color: darkolivegreen;
 }
 
+/* Rounded images*/
 img {
     border-radius: 8px;
 }
+
+/* Design for the duck*/
 
 .duck {
     width: 64px;
@@ -86,3 +93,17 @@ img {
     top: 10px;
     left: 10px;
 }
+
+  /* button for fetch*/
+
+  fetchbutton {
+    margin-top: 20px;
+    line-height: 60px;
+    font-weight: bold;
+    padding: 0 40px;
+    background: salmon;
+    border: none;
+  }
+  fetchbutton:hover {
+    background: lightsalmon;
+  }
