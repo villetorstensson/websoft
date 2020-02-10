@@ -1,0 +1,156 @@
+<?php
+$pageTitle = "Report";
+require __DIR__ . "/view/header.php"; ?>
+
+
+
+<article>
+
+
+<h1>Reports from the course</h1>
+
+
+<section>
+<h2>S01</h2>
+<p>Did you before know about the techniques Git, GitHub, Markdown and/or GitHub Pages?</p>
+    <p>I had worked in Github before, but mainly in the desktop version of it. So Git bash and all the commands
+        were a bit new for me. Markdown and Github pages had I never worked with before. We have had a couple of 
+        courses where we used Git, and I have always found it a bit tricky and hard to manage. So hopefully this time
+        it will be a different experience for me, considering I am using Git Bash.</p>
+    
+    <p>Have you ever created websites before?</p>
+    <p>I have worked a bit with client and server in the course network applications so I know a bit about setting
+        up a server. But i have never tried making a website or worked with websites before. So this will probably be
+        a fun challenge working with some new languages. </p> 
+    
+    <p>Briefly explain your experience and knowledge of web application development.</p>
+    <p>As written above, I had some experience of web application development in a previous course. But other than
+        that, this is pretty new for me. I know some stuff about it like Websockets and Restful APIs, but I have never
+        worked with Visual Studio Code or anything like that before.</p>
+    
+    <p>What is your TIL for this course section?</p>
+    <p>My TIL for this course section is mainly some new commands in Git Bash. I learned about the Github Pages aswell
+        as some new commands in Git Bash such as tags. I also learned how to manage this program I am writing this in,
+        Visual Studio Code. Other than that, I also learned about how to use links in the index.html to get to other
+        html files.</p>
+</section>
+
+<section>
+<h2>S02</h2>
+<p>Have you any previous experience of HTML, CSS and/or JavaScript?</p>
+    <p> No I do not have any previous experience of any of these 3 languages. So hopefully I will master all of them during this course.</p>
+    
+    <p>Explain the role of HTML, CSS and JavaScript in web development.</p>
+    <p> I can try to explain with an example: HTML: Human body comprising bones, it is the skeleton and flesh.
+        CSS: This is the accessories like clothes, make-up and glasses. Things that makes you look extra good.
+        JavaScript: Everything involving your movement, how you laugh and run for example.
+        So basically you will need all of these three to work properly as a human being. And it works the same in web development.
+        For example if you dont have JavaScript, you will have clothes and a body but you cannot do anything. 
+        And if you dont have CSS, you will not have any clothes or accessories, that is kind of wierd.
+        And if you dont have HTML, your clothes and accessories are useless because you dont have a body to put them on.
+    </p> 
+    
+    <p>Give a brief explanation of how the browser, the HTTP protocol and the web server interacts.</p>
+    <p> A browser communicates with the web server trough HTTP protocol. 
+        If a browser wants to return something to the web server, a picture for example, it makes a HTTP request to a web server. And then the server returns the request. 
+    </p>
+    
+    <p>What is your TIL for this course section?</p>
+    <p> My TIL for this course section is: I learned how to work with pictures in visual studio code. I learned how change background
+        color for my different pages on my web site. I also learned how to change fonts in my web site.  </p>
+</section>
+
+<section>
+<h2>S03</h2>
+<p>Do you have any previous experience of client side Javascript?</p>
+    <p> I have never worked with javascript before, so therefore my experience with it is very minor. 
+        But I have worked with client and server side applications before, so therefore I know a bit about
+        how to handle the client side. </p>
+    
+    <p>Can you compare and relate the Javascript language to any other language you know? </p>
+    <p> Yes, I have almost only worked with Java before. And after working with JavaScript now it feels like 
+        the 2 languages are very similar. I understand most of the code and variables in JavaScript, so it 
+        seems like a good language to start working with after working in Java.  
+    </p> 
+    
+    <p>Describe how you worked with the coding exercise, what grade do you aim for and how did your code turn out to be? </p>
+    <p> I actually started this coding exercise with creating the duck. I coded a duck that move to the right when you click on it.
+        I decided to start with this because I felt I needed more knowledge about the fetch-part before i could start working with it.
+        When I had gathered some information regarding the fetch, I started by doing a table in my js-file. 
+        I had some struggles with the fetch part, but I looked at the code in examples and got some help from there.
+        Because I hade some struggles with the fetch I only did the requirements for grade 3, but if I get some 
+        more time with it I will try to expand it. 
+    </p>
+    
+    <p>What is your TIL for this course section?</p>
+    <p> First of all i learned how to make a movable object in javascript, using an eventlistener.
+        I learned about the fetch command, which i had some issues with.
+        And in the fetch-part I also learned how to create a HTML-table and style it.
+        I also learned more about how json works. </p>
+</section>
+
+<section>
+<h2>S04</h2>
+<p>Tell me about your previous experience on node/npm or any equal programming tools.</p>
+    <p> I have very little experience in node and npm. I have never worked with it before so therefore
+        I had some troubles understanding it at first.  </p>
+    
+    <p>How do you feel about working with JavaScript, Node and Express?</p>
+    <p> So far I have learned a lot in this course and it has been very nice working with JavaScript. Node and
+        Express have I only worked with a little bit now in this section, but so far it has been pleaseant.
+        And hopefully it will continue to run smooth in future sections.
+        
+    </p> 
+    
+    <p>Explain how you did take on the coding assignment, did you have a plan and did it work?</p>
+    <p> I started with doing the tasks before the actual coding exercise, installed Node and npm and got familiar with it.
+        Then I completed the Express application with help from the example folder. Then it was time to make the lottery-game.
+        I searched after some insipiration online and found some good tips and tricks before I started coding myself.
+        This assignment went well and without any big issues.
+    </p>
+
+    <p>What grade did you aim for and was it a difficult level?</p>
+    <p> I only did the requirements for grade 3. I started trying with the grade 4 requirements but decided
+        not to proceed with it because it got to difficult for me. I felt that grade 3 was a pretty easy level considering
+        you hade most of the code for it.  
+    </p>
+
+    
+    <p>What is your TIL for this course section?</p>
+    <p> Considering I never worked with node and npm before thats one thing i learned.
+        I also learned how to work with Express. </p>
+</section>
+
+<section>
+<h2>S05</h2>
+<p>Here is the text for this section.</p>
+</section>
+
+<section>
+<h2>S06</h2>
+<p>Here is the text for this section.</p>
+</section>
+
+<section>
+<h2>S07</h2>
+<p>Here is the text for this section.</p>
+</section>
+
+<section>
+<h2>S08</h2>
+<p>Here is the text for this section.</p>
+</section>
+
+<section>
+<h2>S09</h2>
+<p>Here is the text for this section.</p>
+</section>
+
+<section>
+<h2>S10</h2>
+<p>Here is the text for this section.</p>
+</section>
+
+
+</article>
+<?php require __DIR__ . "/view/footer.php"; ?>
