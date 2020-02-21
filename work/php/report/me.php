@@ -1,6 +1,10 @@
+ /** PHP code */
+ 
 <?php
 $pageTitle = "Me";
 require __DIR__ . "/view/header.php"; ?>
+
+/** HTML CODE */
 
 <article>
 
