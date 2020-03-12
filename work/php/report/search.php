@@ -2,6 +2,8 @@
 
 $pageTitle = "Search";
 require __DIR__ . "/view/header.php";
+
+
 /**
  * A page controller
  */
@@ -16,31 +18,14 @@ $like = "%$search%";
 if ($search) {
     // Connect to the database
     $db = connectDatabase($dsn);
-
-    // Prepare and execute the SQL statement
-    $sql = <<<EOD
-SELECT
-    *
-FROM person
-WHERE
-    Personid = ?
-    OR LastName LIKE ?
-    OR FirstName LIKE ?
-    OR Age LIKE ?
-;
-EOD;
-    $stmt = $db->prepare($sql);
-    $stmt->execute([$search, $like, $like, $like ]);
-
-    // Get the results as an array with column names as array keys
-    $res = $stmt->fetchAll();
+    $res = wildCardSearch($db, $search);
 }
+?>
+
+<body class="schools">
 
 
-
-
-?><h1>Search the database</h1>
-
+<h1>Search the database</h1>
 <form>
     <p>
         <label>Search: 
@@ -50,24 +35,30 @@ EOD;
 </form>
 
 <?php if ($search) : ?>
-    <table id = "myTable">
+    <table id ="person">
         <tr>
             <th>ID </th>
-            <th>Lastname</th>
-            <th>Firstname</th>
+            <th>Lastname </th>
+            <th>Firstname </th>
             <th>Age</th>
         </tr>
 
-    <?php foreach ($res as $row) : ?>
+    <?php 
+    if(is_array($res) || is_object($res)) :
+    foreach ($res as $row) : ?>
         <tr>
-            <td><?= $row["Personid"] ?></td>
+            <td><?= $row["ID"] ?></td>
             <td><?= $row["LastName"] ?></td>
             <td><?= $row["FirstName"] ?></td>
             <td><?= $row["Age"] ?></td>
         </tr>
-    <?php endforeach; ?>
-
+    <?php endforeach; 
+endif; ?>
     </table>
 <?php endif; ?>
 
 <?php require __DIR__ . "/view/footer.php"; ?>
+
+    
+
+   

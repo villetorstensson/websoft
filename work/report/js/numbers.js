@@ -15,16 +15,6 @@ function generate(size, lowest, highest) {
 		}
 	}
   
-	var highestNumber = 0;
-	for(var m = 0; m < numbers.length; m++) {
-		for(var n = m + 1; n < numbers.length; n++) {
-			if(numbers[n] < numbers[m]) {
-				highestNumber = numbers[m];
-				numbers[m] = numbers[n];
-				numbers[n] = highestNumber;
-			}
-		}
-	}
   
 	document.getElementById("numbers").innerHTML = numbers.join(" - ");
 }

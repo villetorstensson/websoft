@@ -1,7 +1,8 @@
-/** PHP code */
-<?php
+ <?php
 $pageTitle = "Schools";
 require __DIR__ . "/view/header.php"; ?>
+
+<body class="schools">
 
 <article>
 
@@ -26,6 +27,6 @@ require __DIR__ . "/view/header.php"; ?>
     <div id="container"></div>
 <script type="text/javascript" src="js/school.js">jumpto(document.form2.jumpmenu.options[document.form2.jumpmenu.options.selectedIndex].value);</script> 
 
-/** PHP code */
+
 <?php require __DIR__ . "/view/footer.php"; ?>
 

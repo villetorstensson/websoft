@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the banking</h1>
+    <p>View and interact with your accounts</a>.</p>
+</div>
+
+@foreach (var account in Model.Accounts) 
+{
+    var data = "api/accounts/" + account.Number;
+    <h2>@account.Label</h2>
+}

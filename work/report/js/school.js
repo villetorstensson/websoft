@@ -13,7 +13,7 @@ function jumpto(x){
         
         console.log(myJson.Skolenheter.length)
         
-        var str1 = "Skolenhetsnamn";
+        var str1 = "Skolenhetskod";
         var str2 = "Skolenhetsnamn";
         var str3 = "Kommunkod";
         var str4 = "PeOrgNr";
@@ -54,7 +54,7 @@ function jumpto(x){
         
         console.log(myJson.Skolenheter.length)
         
-        var str1 = "Skolenhetsnamn";
+        var str1 = "Skolenhetskod";
         var str2 = "Skolenhetsnamn";
         var str3 = "Kommunkod";
         var str4 = "PeOrgNr";

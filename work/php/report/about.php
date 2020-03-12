@@ -1,10 +1,8 @@
-
-/** PHP code */
 <?php
 $pageTitle = "About";
 require __DIR__ . "/view/header.php"; ?>
 
-
+<body class="about">
 
 <article>
 
@@ -22,5 +20,5 @@ require __DIR__ . "/view/header.php"; ?>
 
 </article>
 
-/** PHP code */
+
 <?php require __DIR__ . "/view/footer.php"; ?>

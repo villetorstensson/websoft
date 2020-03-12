@@ -1,10 +1,8 @@
-/** PHP code */
-
 <?php
 $pageTitle = "Report";
 require __DIR__ . "/view/header.php"; ?>
 
-
+<body class="report">
 
 <article>
 
@@ -125,36 +123,138 @@ require __DIR__ . "/view/header.php"; ?>
 
 <section>
 <h2>S05</h2>
-<p>Here is the text for this section.</p>
+<p>How do you feel about PHP as a programming language?</p>
+    <p> It seems like a useful language to learn. Struggled a bit with it at first but now I am starting 
+        to understand it a bit more. </p>
+    
+    <p>Can you compare PHP to other languages you know?</p>
+    <p> It is a bit similar to Java. 
+    </p> 
+    
+    <p>Describe how you took on the coding exercise, what grade did you aim for and are you satisfied with the result?</p>
+    <p> I started by looking at some of examples in the folders. I then customized the code in functions.php, config.php,
+        and search.php to make it fit my agenda. I then went onto phpMyAdmin where I created my database. I then
+        created a table person, where i inserted some different persons with ids, names and age. Then I created a auto 
+        incremented integer as primary key. Since I am not the best at databases, I settled for grade 3 in this section.
+    </p>
+
+    
+    <p>What is your TIL for this course section?</p>
+    <p> My TIL for this course section is the php language. 
+        I also learned to work in phpMyAdmin.  </p>
 </section>
 
 <section>
 <h2>S06</h2>
-<p>Here is the text for this section.</p>
+<p>What is your own opinion on popularity of programming languages and what are your thoughts of future popularity among programming languages?</p>
+    <p> What i believe is that the most popular programming languages are often the ones that have been around for a while.
+        It is hard to create a new language and make it a popular programming language right away. For that
+        to happen the language has to offer something incredible and new. So I believe that in the future
+        the popular languages like C or Java will probably grow even more and be as popular as ever.
+        And hopefully som new language with some new techniques has established as a very popular language.  </p>
+    
+    <p>What will be your own choice for selecting future programming languages?</p>
+    <p> That is a hard question to answer because I have not worked that much with different languages. So 
+        I will have to wait until I can know the answer to this for sure. I will adapt to whatever language 
+        my workplace uses the most. And I will probably work more with the front-end part of programming. So HTTP
+        could be my choice for the future. 
+    </p> 
+    
+    <p>Do your own investigation on https://trends.google.com (Links to an external site.) to customize your own comparison on programming languages (or frameworks) and elaborate on the results.</p>
+    <p> I decided to compare PHP with JavaScript, and it turned out that these 2 languages has been pretty stable for the last
+        5 years. With JavaScript being the most popular of the 2 during these 5 years. And it looks like it will continue 
+        in that way, with JavaScript having a slightly positive curve, and PHP having a pretty neutral curve. 
+    </p>
+
+    
+    <p>If you were to recommend a language/framework/technology to your potential employer and your next large project, what would it be and how would you “sell it”?</p>
+    <p> I would probably recommend JavaScript due to the fact that it is a popular and great language. 
+        So finding competent people for it would not be hard.  </p>
+
+        <p> What is your TIL for this course section?</p>
+    <p> I had never used Google trend before so I learned that.   </p>
 </section>
 
 <section>
 <h2>S07</h2>
-<p>Here is the text for this section.</p>
+<p>Try to explain the platform .NET (C#, ASP.NET) to a skilled programmer, but newbie to this Microsoft technology.</p>
+    <p> It is basically a platform where you can build many different types of applications.
+        You can use 3 different languages, C#, F# and Visual basic. You can create many different 
+        types of applications, for example for the web, mobile and desktop.  </p>
+    
+    <p>Elaborate by comparing .NET technologies with the other technologies we learned during the course.</p>
+    <p> Compared to php I feel like .net is more compatible with C#. It seems easier to learn and get going with
+        .net then with php.
+    </p> 
+    
+    <p>Describe how you took on the coding exercise, what grade did you aim for and are you satisfied with the result?</p>
+    <p> I aimed for grade 3 as usual. 
+        I started with downloading dotnet so I could get familiar with that. Then I used your lecture on youtube
+        as an guide to get going with the assignment. And after that I got some assistant from other youtube videos 
+        aswell.  
+    </p>
+
+        <p> What is your TIL for this course section?</p>
+    <p> Dotnet is my TIL for this course section.  </p>
 </section>
 
 <section>
 <h2>S08</h2>
-<p>Here is the text for this section.</p>
+<p> Group members: Ville Torstensson, Felix Karström, Martin Rubin.
+        Websites chosen: Aftonbladet, Expressen, Kristianstadbladet.  </p>
+        <p> We chose these websites because they are very similiar in their content. So it will be
+            interesting to compare them. </p>
+
+            <p> Findings and elaboration </p>
+            <p> The best of our three websites was definitely Expressen, it loaded the fastest, and performed best
+                on almost every aspect. Aftonbladet was not very far behind, as it also was a quick and good website.
+                Kristianstadbladet on the other hand, was not very close to the other two websites. It was a slow 
+                website compared to them. 
+                
+                We used pagespeed to see the biggest problems of the websites and how to solve them.
+                Aftonbladet had a quick site and could not improve that much. The biggest time-saver they could
+                do is to eliminate render-blocking resources, and thereby save 1.07 seconds. They could also improve
+                some image-problems. But overall they have a very quick site.
+                Expressens website is excellent, their only time-saver would be to defer offscreen images. But other 
+                than that, their website runs very quick. 
+                Kristianstadbladet has some very bad statistics compared to Aftonbladet and Expressen. Their website runs 
+                significally slower and could save a lot of time on some issues. They could save 11.25 seconds on serving
+                images in next-gen formats. And 10.92 seconds on defering offscreen images.
+                  </p>
+
+            <p> <img src="img/WebisteAnalysis.PNG" width="400" alt="WebisteAnalysis"> </p>
 </section>
 
 <section>
 <h2>S09</h2>
-<p>Here is the text for this section.</p>
+<p>Elaborate on a few (3-5) different security issues or concerns, 
+    from your own experience, related to web application security and relate them to the OWASP top ten.</p>
+    <p> When it comes to security issues the one thing im most concerned about is all the data websites 
+        are collecting about you these days. When you create a new account somewhere they store all of 
+        your information you entered by using cookies and other tools. If a database is hacked all of your 
+        personal information can be accessed. Another security issue is passwords. Nowadays people are signed
+        up to a lot of different platforms, and most of us are probably using the same password for each platform. 
+        You need to make sure that your password contains a lot of different characters, otherwise 
+        hackers got algorithms that can breach your password in just a couple of hours. I change my password 
+        once in a while just to make sure I am not using the same password for too long. 
+        Another security risk could be if you are visiting some old site and they are not up to date with security 
+        protocols.   </p>
+
+    <p> Summarize by providing your own guidelines to a new web programmer on the topic 
+        “The essential guidelines to follow to create secure web applications”.</p>
+    <p> Learn the OWASP top 10 and have them in mind while programming. 
+        Always be aware that security issues could be everywhere, you are never completely safe of them. 
+        When implementing code, try to always think about the security concerns.  </p>
+
+    <p> What is your TIL for this course section?</p>
+    <p> I learned about what the biggest security issues are in web programming.  </p>
+
 </section>
 
-<section>
-<h2>S10</h2>
-<p>Here is the text for this section.</p>
-</section>
+
 
 
 </article>
 
-/** PHP code */
+
 <?php require __DIR__ . "/view/footer.php"; ?>

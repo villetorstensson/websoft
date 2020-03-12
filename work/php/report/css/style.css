@@ -31,6 +31,7 @@
     box-shadow: 5px 5px;
 }
 
+
 /* Design for all the different pages*/
 .about {
     background-image: linear-gradient(pink,blue);
@@ -59,6 +60,7 @@
     width: 700px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 /* Design for all the links*/
 
 a:link {
